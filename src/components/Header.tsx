@@ -27,7 +27,7 @@ function Header() {
 
             <nav className="header__nav">
                 <ul>
-                    <li><a href="#">Qui suis je ?</a></li>
+                    <li><a href="#section-who-am-i">Qui suis-je ?</a></li>
                     <li><a href="#">Mes projets</a></li>
                     <li><a href="#">Mes compétences</a></li>
                     <li><a href="#">Me contacter</a></li>
