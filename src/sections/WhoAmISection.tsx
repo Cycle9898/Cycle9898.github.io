@@ -3,7 +3,7 @@ import CV from "../assets/CV/CV_Cyril_CLEMENT_Dev.pdf";
 
 function WhoAmISection() {
     return (
-        <section className="section-who-am-i" id="section-who-am-i">
+        <section className="section" id="section-who-am-i">
             <h3>Qui suis-je ?</h3>
 
             <article className="introduction">

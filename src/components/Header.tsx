@@ -12,13 +12,13 @@ function Header() {
             <div className="header__networking">
                 <ul>
                     <li>
-                        <a href="https://github.com/Cycle9898" aria-label="GitHub" target="_blank">
+                        <a href="https://github.com/Cycle9898" aria-label="GitHub" target="_blank" title="GitHub">
                             <FaGithub />
                         </a>
                     </li>
 
                     <li>
-                        <a href="https://www.linkedin.com/in/cy-clement" aria-label="LinkedIn" target="_blank">
+                        <a href="https://www.linkedin.com/in/cy-clement" aria-label="LinkedIn" target="_blank" title="LinkedIn">
                             <FaLinkedin />
                         </a>
                     </li>
@@ -28,7 +28,7 @@ function Header() {
             <nav className="header__nav">
                 <ul>
                     <li><a href="#section-who-am-i">Qui suis-je ?</a></li>
-                    <li><a href="#">Mes projets</a></li>
+                    <li><a href="#section-my-projects">Mes projets</a></li>
                     <li><a href="#">Mes compétences</a></li>
                     <li><a href="#">Me contacter</a></li>
                 </ul>
