@@ -29,7 +29,7 @@ function Header() {
                 <ul>
                     <li><a href="#section-who-am-i">Qui suis-je ?</a></li>
                     <li><a href="#section-my-projects">Mes projets</a></li>
-                    <li><a href="#">Mes compétences</a></li>
+                    <li><a href="#section-my-skills">Mes compétences</a></li>
                     <li><a href="#">Me contacter</a></li>
                 </ul>
             </nav>
