@@ -13,13 +13,14 @@ function WhoAmISection() {
 
                 <div className="introduction__text">
                     <p>Je m'appelle Cyril CLEMENT.</p>
-                    <p>Après 10 ans dans l'e-commerce, j'ai opté pour une reconversion professionnelle
-                        vers un autre domaine qui me tient à cœur : l'informatique.</p>
+
+                    <p>Je suis passionné par la création de sites et d'applications web dynamiques.</p>
+
                     <p>
-                        Suite à ma formation de développeur d’application
-                        JavaScript chez OpenClassrooms, je suis déterminé à relever de
-                        nouveaux défis, résoudre des problématiques et créer des
-                        applications robustes et stylisées.
+                        Fort de ma formation de développeur d’application
+                        JavaScript de chez OpenClassrooms, je suis en mesure d'intégrer une maquette,
+                        implémenter une logique métier, conceptualiser une API ou une interface utilisateur
+                        et écrire du code modulaire et réutilisable afin de créer des applications web robustes et stylisées.
                     </p>
 
                     <a href={CV} target="_blank" className="introduction__cv">Télécharger mon CV</a>

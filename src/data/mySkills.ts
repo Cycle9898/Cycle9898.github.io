@@ -1,4 +1,3 @@
-import javascriptLogo from "../assets/images/Skills/javascript.png";
 import typescriptLogo from "../assets/images/Skills/typescript.png";
 import reactLogo from "../assets/images/Skills/react.png";
 import reduxLogo from "../assets/images/Skills/redux.png";
@@ -22,46 +21,41 @@ export type SkillType = {
 export const technologies: SkillType[] = [
     {
         id: "Tech01",
-        name: "JavaScript",
-        logo: javascriptLogo
-    },
-    {
-        id: "Tech02",
         name: "TypeScript",
         logo: typescriptLogo
     },
     {
-        id: "Tech03",
+        id: "Tech02",
         name: "React",
         logo: reactLogo
     },
     {
-        id: "Tech04",
+        id: "Tech03",
         name: "Redux",
         logo: reduxLogo
     },
     {
-        id: "Tech05",
+        id: "Tech04",
         name: "Sass",
         logo: sassLogo
     },
     {
-        id: "Tech06",
+        id: "Tech05",
         name: "Bootstrap",
         logo: bootstrapLogo
     },
     {
-        id: "Tech07",
+        id: "Tech06",
         name: "Jest",
         logo: jestLogo
     },
     {
-        id: "Tech08",
+        id: "Tech07",
         name: "Node.JS",
         logo: nodejsLogo
     },
     {
-        id: "Tech09",
+        id: "Tech08",
         name: "MongoDB",
         logo: mongodbLogo
     },

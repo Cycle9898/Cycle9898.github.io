@@ -209,3 +209,12 @@ a {
     gap: 5px;
     width: 100%;
 }
+
+/* Footer component */
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+}

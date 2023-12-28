@@ -1,5 +1,7 @@
 import { FaGithub } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa6";
+import { FaFilePdf } from "react-icons/fa6";
+import CV from "../assets/CV/CV_Cyril_CLEMENT_Dev.pdf";
 
 function Header() {
     return (
@@ -20,6 +22,12 @@ function Header() {
                     <li>
                         <a href="https://www.linkedin.com/in/cy-clement" aria-label="LinkedIn" target="_blank" title="LinkedIn">
                             <FaLinkedin />
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href={CV} aria-label="Télécharger mon CV" target="_blank" title="Télécharger mon CV" >
+                            <FaFilePdf />
                         </a>
                     </li>
                 </ul>
