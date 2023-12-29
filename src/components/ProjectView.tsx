@@ -13,18 +13,18 @@ function ProjectView({ title,image,description,github,link }: ProjectType) {
             <div className="project__details">
                 <h4>{title}</h4>
 
-                <p className="project__description">
-                    <span><MdOutlineDescription aria-label="Description du projet" title="Description" /> : </span>
-                    <span>{description}</span>
+                <p>
+                    <MdOutlineDescription aria-label="Description du projet" title="Description" /> :
+                    {" " + description}
                 </p>
 
-                <p className="project__link">
-                    <span><FaGithub aria-label="Lien vers le GitHub" title="GitHub" /> : </span>
+                <p>
+                    <FaGithub aria-label="Lien vers le GitHub" title="GitHub" /> : {" "}
                     <a href={github} target="_blank" title={github}>{github}</a>
                 </p>
 
-                <p className="project__link">
-                    <span><LuLink aria-label="Lien vers le site" title="Lien" /> : </span>
+                <p>
+                    <LuLink aria-label="Lien vers le site" title="Lien" /> : {" "}
                     <a href={link} target="_blank" title={link}>{link}</a>
                 </p>
             </div>

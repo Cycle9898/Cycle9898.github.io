@@ -191,7 +191,7 @@ a {
 .projects-container {
     display: flex;
     flex-direction: column;
-    row-gap: 20px;
+    row-gap: 40px;
 }
 
 /* ProjectView component */
@@ -199,7 +199,7 @@ a {
 .project {
     display: flex;
     align-items: center;
-    column-gap: 20px;
+    column-gap: 40px;
 }
 
 .project__image {
@@ -210,6 +210,7 @@ a {
 .project__image img {
     height: 100%;
     object-fit: cover;
+    border: 1px solid var(--bg-color);
     border-radius: 10px;
 }
 
@@ -217,16 +218,23 @@ a {
     display: flex;
     flex-direction: column;
     row-gap: 10px;
+    font-size: 1.2rem;
 }
 
-.project__details span {
+.project__details svg {
     vertical-align: middle;
+    font-size: 1.4rem;
+}
+
+.project__details h4 {
+    font-size: 1.4rem;
+    color: var(--primary-color);
 }
 
 .project__details a {
     display: inline-block;
     vertical-align: middle;
-    max-width: 300px;
+    max-width: 400px;
     overflow: hidden;
     text-wrap: nowrap;
     text-overflow: ellipsis;
