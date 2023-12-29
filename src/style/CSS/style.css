@@ -308,4 +308,16 @@ a {
     align-items: center;
     justify-content: center;
     height: 100px;
+    background-color: var(--alt-color);
+    border-radius: 10px 10px 0 0;
+}
+
+.footer__container {
+    border: 1px solid var(--bg-color);
+    padding: 8px;
+    border-radius: 10px;
+    color: rgba(255, 255, 255, 0.8);
+    color: var(--bg-color);
+    font-size: 0.9rem;
+    font-weight: 400;
 }
