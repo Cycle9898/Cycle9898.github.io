@@ -7,8 +7,10 @@ function Header() {
     return (
         <header className="header">
             <div className="header__main-title">
-                <h1>Cyril CLEMENT</h1>
-                <h2>Développeur JavaScript / TypeScript</h2>
+                <a href="/">
+                    <h1>Cyril CLEMENT</h1>
+                    <h2>Développeur JavaScript / TypeScript</h2>
+                </a>
             </div>
 
             <div className="header__networking">
@@ -20,13 +22,13 @@ function Header() {
                     </li>
 
                     <li>
-                        <a href="https://www.linkedin.com/in/cy-clement" aria-label="LinkedIn" target="_blank" title="LinkedIn">
+                        <a href="https://www.linkedin.com/in/cy-clement" aria-label="LinkedIn" target="_blank" title="LinkedIn" className="li-logo">
                             <FaLinkedin />
                         </a>
                     </li>
 
                     <li>
-                        <a href={CV} aria-label="Télécharger mon CV" target="_blank" title="Télécharger mon CV" >
+                        <a href={CV} aria-label="Télécharger mon CV" target="_blank" title="Télécharger mon CV" className="pdf-logo">
                             <FaFilePdf />
                         </a>
                     </li>
