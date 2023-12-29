@@ -4,7 +4,7 @@ import { IoMailSharp } from "react-icons/io5";
 function ContactSection() {
     return (
         <section className="section" id="section-contact">
-            <h3>Me contacter</h3>
+            <h3 className="section-title">Me contacter</h3>
 
             <div className="contact-methods">
                 <a href="https://www.linkedin.com/in/cy-clement" target="_blank">

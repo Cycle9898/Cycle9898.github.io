@@ -37,10 +37,10 @@ function Header() {
 
             <nav className="header__nav">
                 <ul>
-                    <li><a href="#section-who-am-i">Qui suis-je ?</a></li>
-                    <li><a href="#section-my-projects">Mes projets</a></li>
-                    <li><a href="#section-my-skills">Mes compétences</a></li>
-                    <li><a href="#section-contact">Me contacter</a></li>
+                    <li className="main-button"><a href="#section-who-am-i">Qui suis-je ?</a></li>
+                    <li className="main-button"><a href="#section-my-projects">Mes projets</a></li>
+                    <li className="main-button"><a href="#section-my-skills">Mes compétences</a></li>
+                    <li className="main-button"><a href="#section-contact">Me contacter</a></li>
                 </ul>
             </nav>
         </header>

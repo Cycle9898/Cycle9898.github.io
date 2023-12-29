@@ -4,7 +4,7 @@ import { myProjects } from "../data/myProjects";
 function MyProjectsSection() {
     return (
         <section className="section" id="section-my-projects">
-            <h3>Mes projets</h3>
+            <h3 className="section-title">Mes projets</h3>
 
             <div className="projects-container">
                 {myProjects.map((project,index) => <ProjectView

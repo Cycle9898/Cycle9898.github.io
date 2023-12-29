@@ -4,7 +4,7 @@ import { technologies,tools } from "../data/mySkills";
 function MySkillsSection() {
     return (
         <section className="section" id="section-my-skills">
-            <h3>Mes compétences</h3>
+            <h3 className="section-title">Mes compétences</h3>
 
             <h4>Technologies</h4>
 
