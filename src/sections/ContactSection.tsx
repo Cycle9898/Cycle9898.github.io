@@ -7,8 +7,8 @@ function ContactSection() {
             <h3 className="section-title">Me contacter</h3>
 
             <div className="contact-methods">
-                <a href="https://www.linkedin.com/in/cy-clement" target="_blank">
-                    Me contacter sur LinkedIn <FaLinkedin aria-label="logo LinkedIn" />
+                <a href="https://www.linkedin.com/in/cy-clement" target="_blank" className="main-button">
+                    Me contacter sur LinkedIn <span className="li-logo"><FaLinkedin aria-label="logo LinkedIn" /></span>
                 </a>
 
                 <form action="https://formsubmit.co/c3c0eb6b212866775d9f0504b95ccabc" method="POST" className="message-form">
@@ -30,7 +30,7 @@ function ContactSection() {
                     </div>
 
                     <div className="message-form__button">
-                        <button type="submit" name="submit">Envoyer le message</button>
+                        <button type="submit" name="submit" className="main-button">Envoyer le message</button>
                     </div>
                 </form>
             </div>
