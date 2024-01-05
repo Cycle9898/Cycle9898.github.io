@@ -1,9 +1,34 @@
+import { useEffect,useState } from "react";
 import { FaGithub } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa6";
 import { FaFilePdf } from "react-icons/fa6";
+import { GiHamburgerMenu } from "react-icons/gi";
 import CV from "../assets/CV/CV_Cyril_CLEMENT_Dev.pdf";
 
 function Header() {
+    // React local states
+    const [isOpen,setIsOpen] = useState<boolean>(false);
+    const [windowWidth,setWindowWidth] = useState<number>(window.innerWidth);
+
+    // Utility functions
+    const toggleIsOpen = () => {
+        if (windowWidth <= 768) {
+            setIsOpen((prevState: boolean) => !prevState)
+        }
+    };
+
+    const getWindowWidth = () => setWindowWidth(window.innerWidth);
+
+    useEffect(() => {
+        // event listener to get and store window width in the state
+        window.addEventListener('resize',getWindowWidth);
+
+        return () => {
+            // cleanup event listeners
+            window.removeEventListener('resize',getWindowWidth);
+        };
+    },[]);
+
     return (
         <header className="header">
             <div className="header__main-title">
@@ -36,13 +61,18 @@ function Header() {
             </div>
 
             <nav className="header__nav">
-                <ul>
-                    <li className="main-button"><a href="#section-who-am-i">Qui suis-je ?</a></li>
-                    <li className="main-button"><a href="#section-my-projects">Mes projets</a></li>
-                    <li className="main-button"><a href="#section-my-skills">Mes compétences</a></li>
-                    <li className="main-button"><a href="#section-contact">Me contacter</a></li>
-                </ul>
+                {(isOpen || windowWidth > 768) &&
+                    <ul onClick={toggleIsOpen}>
+                        <li className="main-button"><a href="#section-who-am-i">Qui suis-je ?</a></li>
+                        <li className="main-button"><a href="#section-my-projects">Mes projets</a></li>
+                        <li className="main-button"><a href="#section-my-skills">Mes compétences</a></li>
+                        <li className="main-button"><a href="#section-contact">Me contacter</a></li>
+                    </ul>}
             </nav>
+
+            <div className="burger-menu" onClick={toggleIsOpen}>
+                <GiHamburgerMenu aria-label="Afficher ou masquer la barre de navigation" />
+            </div>
         </header>
     );
 }

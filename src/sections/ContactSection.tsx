@@ -1,5 +1,4 @@
 import { FaLinkedin } from "react-icons/fa6";
-import { IoMailSharp } from "react-icons/io5";
 
 function ContactSection() {
     return (
@@ -12,7 +11,7 @@ function ContactSection() {
                 </a>
 
                 <form action="https://formsubmit.co/c3c0eb6b212866775d9f0504b95ccabc" method="POST" className="message-form">
-                    <h4>Me laisser un message via le formulaire <IoMailSharp aria-label="logo e-mail" /></h4>
+                    <h4>Me laisser un message via le formulaire</h4>
 
                     <div className="message-form__input">
                         <label htmlFor="name">Nom :</label>
