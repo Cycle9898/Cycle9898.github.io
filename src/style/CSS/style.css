@@ -170,7 +170,7 @@ a {
 
 .introduction__profile-pic {
     width: 200px;
-    aspect-ratio: 0.636;
+    aspect-ratio: 159 / 250;
 }
 
 .introduction__profile-pic img {
@@ -209,7 +209,7 @@ a {
 
 .project__image {
     width: 300px;
-    aspect-ratio: 2.083;
+    aspect-ratio: 250 / 119;
 }
 
 .project__image img {
@@ -236,7 +236,7 @@ a {
     vertical-align: middle;
     max-width: 400px;
     overflow: hidden;
-    text-wrap: nowrap;
+    white-space: nowrap;
     text-overflow: ellipsis;
 }
 
