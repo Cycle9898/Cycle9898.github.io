@@ -349,11 +349,11 @@ a {
     /* General settings */
 
     :target {
-        scroll-margin-top: 303px;
+        scroll-margin-top: unset;
     }
 
     .main {
-        margin-top: 303px;
+        margin-top: unset;
     }
 
     .section {
@@ -363,6 +363,7 @@ a {
     /* Header component */
 
     .header {
+        position: unset;
         padding: 20px 40px;
         grid-template-rows: auto auto auto;
     }
@@ -417,14 +418,6 @@ a {
 
 @media (max-width: 768px) {
     /* General settings */
-
-    :target {
-        scroll-margin-top: 233px;
-    }
-
-    .main {
-        margin-top: 233px;
-    }
 
     .section {
         padding: 30px 20px;
