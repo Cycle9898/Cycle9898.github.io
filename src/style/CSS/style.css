@@ -6,10 +6,6 @@
     --bg-color: #D4DEE6;
 }
 
-:target {
-    scroll-margin-top: 240px;
-}
-
 div#root {
     display: flex;
     flex-direction: column;
@@ -21,7 +17,6 @@ div#root {
 }
 
 .main {
-    margin-top: 240px;
     flex: 1;
     display: flex;
     flex-direction: column;
@@ -72,10 +67,8 @@ a {
 /* Header component */
 
 .header {
-    position: fixed;
+    position: sticky;
     top: 0;
-    width: 100%;
-    max-width: 1600px;
     z-index: 10;
     border-radius: 0 0 10px 10px;
     display: grid;
@@ -353,14 +346,6 @@ a {
 
 @media (max-width: 992px) {
     /* General settings */
-
-    :target {
-        scroll-margin-top: unset;
-    }
-
-    .main {
-        margin-top: unset;
-    }
 
     .section {
         padding: 30px 40px;
