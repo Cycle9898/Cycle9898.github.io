@@ -7,7 +7,9 @@ function ProjectView({ title,image,description,github,link }: ProjectType) {
     return (
         <article className="project">
             <div className="project__image">
-                <img src={image} alt={`Capture d'écran du projet "${title}"`} />
+                <a href={link} target="_blank" title={link}>
+                    <img src={image} alt={`Capture d'écran du projet "${title}"`} />
+                </a>
             </div>
 
             <div className="project__details">
