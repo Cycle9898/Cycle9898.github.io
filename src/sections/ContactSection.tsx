@@ -28,6 +28,11 @@ function ContactSection() {
                         <textarea name="message" rows={12} cols={35} id="message" placeholder="Votre message." required></textarea>
                     </div>
 
+                    <div className="message-form__agreement">
+                        <input type="checkbox" name="agreement" required />
+                        <p>J'accepte de transmettre les données des champs demandés afin de traiter cette demande.</p>
+                    </div>
+
                     <div className="message-form__button">
                         <button type="submit" name="submit" className="main-button">Envoyer le message</button>
                     </div>

@@ -320,6 +320,12 @@ a {
     padding: 5px;
 }
 
+.message-form__agreement {
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+}
+
 /* Footer component */
 
 .footer {
@@ -526,5 +532,9 @@ a {
 
     .message-form h4 {
         font-size: 1.25rem;
+    }
+
+    .message-form__agreement {
+        column-gap: 15px;
     }
 }
