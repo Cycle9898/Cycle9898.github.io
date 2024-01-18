@@ -1,7 +1,5 @@
 import { useEffect,useState } from "react";
-import { FaGithub } from "react-icons/fa6";
-import { FaLinkedin } from "react-icons/fa6";
-import { FaFilePdf } from "react-icons/fa6";
+import { FaGithub,FaLinkedin,FaFilePdf } from "react-icons/fa6";
 import { GiHamburgerMenu } from "react-icons/gi";
 import CV from "../assets/CV/CV_Cyril_CLEMENT_Dev.pdf";
 
