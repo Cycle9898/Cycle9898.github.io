@@ -64,6 +64,30 @@ a {
     text-decoration: none;
 }
 
+/* FloatingContactButton component */
+
+.medium-device-contact {
+    display: none;
+    align-self: end;
+    width: fit-content;
+    position: sticky;
+    top: 20px;
+    right: 20px;
+    z-index: 5;
+    margin-top: -45px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: white;
+    color: var(--primary-color);
+    font-size: 1.3rem;
+}
+
+.medium-device-contact a {
+    display: block;
+    height: 1.3rem;
+}
+
 /* Header component */
 
 .header {
@@ -349,6 +373,12 @@ a {
 
     .section {
         padding: 30px 40px;
+    }
+
+    /* FloatingContactButton component */
+
+    .medium-device-contact {
+        display: block;
     }
 
     /* Header component */

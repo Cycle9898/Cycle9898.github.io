@@ -1,5 +1,6 @@
 import "./style/CSS/normalize.min.css";
 import "./style/CSS/style.css";
+import FloatingContactButton from "./components/FloatingContactButton";
 import Header from "./components/Header";
 import WhoAmISection from "./sections/WhoAmISection";
 import MyProjectsSection from "./sections/MyProjectsSection";
@@ -10,6 +11,8 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <>
+      <FloatingContactButton />
+
       <Header />
 
       <main className="main">
