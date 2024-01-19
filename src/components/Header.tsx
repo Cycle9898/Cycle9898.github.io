@@ -51,7 +51,7 @@ function Header() {
                     </li>
 
                     <li>
-                        <a href={CV} aria-label="Télécharger mon CV" target="_blank" title="Télécharger mon CV" className="pdf-logo">
+                        <a href={CV} aria-label="Télécharger mon CV en PDF" target="_blank" title="Télécharger mon CV" className="pdf-logo">
                             <FaFilePdf />
                         </a>
                     </li>

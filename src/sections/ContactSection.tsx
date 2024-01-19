@@ -29,8 +29,8 @@ function ContactSection() {
                     </div>
 
                     <div className="message-form__agreement">
-                        <input type="checkbox" name="agreement" required />
-                        <p>J'accepte de transmettre les données des champs demandés afin de traiter cette demande.</p>
+                        <input type="checkbox" name="agreement" id="agreement" required />
+                        <label htmlFor="agreement">J'accepte de transmettre les données des champs demandés afin de traiter cette demande.</label>
                     </div>
 
                     <div className="message-form__button">
