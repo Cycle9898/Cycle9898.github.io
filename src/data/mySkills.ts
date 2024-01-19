@@ -8,7 +8,10 @@ import nodejsLogo from "../assets/images/Skills/nodejs.png";
 import mongodbLogo from "../assets/images/Skills/mongodb.png";
 
 import gitLogo from "../assets/images/Skills/git.png";
+import githubLogo from "../assets/images/Skills/github.png";
 import figmaLogo from "../assets/images/Skills/figma.png";
+import swaggerLogo from "../assets/images/Skills/swagger.png";
+import lighthouseLogo from "../assets/images/Skills/lighthouse.png";
 import linuxLogo from "../assets/images/Skills/linux.png";
 import windowsLogo from "../assets/images/Skills/windows.png";
 
@@ -69,16 +72,31 @@ export const tools: SkillType[] = [
     },
     {
         id: "Tool02",
+        name: "GitHub",
+        logo: githubLogo
+    },
+    {
+        id: "Tool03",
         name: "Figma",
         logo: figmaLogo
     },
     {
-        id: "Tool03",
+        id: "Tool04",
+        name: "Swagger",
+        logo: swaggerLogo
+    },
+    {
+        id: "Tool05",
+        name: "Lighthouse",
+        logo: lighthouseLogo
+    },
+    {
+        id: "Tool06",
         name: "Linux",
         logo: linuxLogo
     },
     {
-        id: "Tool04",
+        id: "Tool07",
         name: "Windows",
         logo: windowsLogo
     }
