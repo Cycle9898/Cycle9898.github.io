@@ -14,6 +14,7 @@ function MyProjectsSection() {
                     description={project.description}
                     github={project.github}
                     link={project.link}
+                    tags={project.tags}
                 />)}
             </div>
         </section>

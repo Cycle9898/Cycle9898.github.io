@@ -267,6 +267,25 @@ a {
     color: var(--primary-color);
 }
 
+.project__details .tags {
+    max-width: 93%;
+    margin-left: 5px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+}
+
+.project__details .tags li {
+    padding: 5px 10px;
+    border: 2px solid var(--primary-color);
+    border-radius: 15px;
+    background-color: var(--bg-color);
+    color: var(--primary-color);
+    font-weight: 500;
+}
+
 /* MySkillsSection component */
 
 .skills-container {
@@ -529,12 +548,17 @@ a {
         width: 100%;
     }
 
-    .project__details {
-        align-items: center;
+    .project__details h4 {
+        text-align: center;
     }
 
     .project__details a {
         max-width: 300px;
+    }
+
+    .project__details .tags {
+        max-width: 89%;
+        font-size: 1rem;
     }
 
     /* MySkillsSection component */
