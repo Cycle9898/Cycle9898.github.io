@@ -17,7 +17,7 @@ export type ProjectType = {
 export const myProjects: ProjectType[] = [
 	{
 		id: "P01",
-		title: "OpenClassrooms projet 14 : Wealth Health HRnet",
+		title: "Wealth Health HRnet",
 		image: captureHrnet,
 		description:
 			"Ce projet est une application web créée, à partir d'une ancienne application jQuery, pour le service RH d'une entreprise fictive nommée Wealth Health. Elle leur permet de se connecter, d'ajouter ou de modifier une fiche salarié à l'aide d'un formulaire dédié, de consulter la liste des salariés ou de supprimer une entrée. L'application a été crée à l'aide de Vite.JS, React, React Context et TypeScript pour la partie Front-End et Node.JS, Express et MongoDB pour la partie Back-end. Un test de performance a également été réalisé avec Lighthouse pour comparer les performances de l'ancienne version sous jQuery avec la nouvelle sous React.",
@@ -39,27 +39,17 @@ export const myProjects: ProjectType[] = [
 	},
 	{
 		id: "P02",
-		title: "OpenClassrooms projet 13 : Argent Bank",
+		title: "Argent Bank",
 		image: captureArgentBank,
 		description:
 			"Ce projet est une application web, créée avec React pour une banque fictive nommée Argent Bank. Elle a été intégrée à partir d'une maquette. Un utilisateur peut s'y connecter pour accéder à son espace client et arrive sur son tableau de bord pour gérer ses différents comptes en banque. La documentation de l'API V2 a été effectuée avec Swagger et un fichier YAML.",
 		github: "https://github.com/Cycle9898/OC_Projet-13_ArgentBank_Front",
 		link: "https://www.cyril-clement.fr/OC_Projet-13_ArgentBank_Front/",
-		tags: [
-			"TypeScript",
-			"React",
-			"Redux",
-			"CSS",
-			"SASS",
-			"Swagger",
-			"NodeJS",
-			"Express",
-			"MongoDB"
-		]
+		tags: ["TypeScript", "React", "Redux", "CSS", "SASS", "Swagger", "NodeJS", "Express", "MongoDB"]
 	},
 	{
 		id: "P03",
-		title: "OpenClassrooms projet 7 : Les petits plats",
+		title: "Les petits plats",
 		image: capturePetitsPlats,
 		description:
 			"Ce projet est un site internet de recette de cuisine permettant de trouver une recette à l'aide d'une barre de recherche et de filtres. Il a été intégré à partir d'une maquette à l'aide de HTML, CSS, Bootstrap et JavaScript. L'objectif est d'avoir un algorithme, écris en JavaScript, pour la recherche et les filtres le plus performant possible. Des tests de performance ont été réalisés entre les 2 algorithmes retenus. Sur GitHub, on peut retrouver un algorithme par branche.",
@@ -69,7 +59,7 @@ export const myProjects: ProjectType[] = [
 	},
 	{
 		id: "P04",
-		title: "OpenClassrooms projet 6 : FishEye",
+		title: "FishEye",
 		image: captureFishEye,
 		description:
 			"Ce projet est un site internet fictif regroupant des photographes freelance et leurs réalisations. Il a été intégré à partir d'une maquette à l'aide de HTML, CSS et JavaScript. L'objectif est d'avoir un site le plus accessible possible. Ce site est parfaitement utilisable avec un logiciel d'accessibilité comme un lecteur d'écran par exemple.",
@@ -79,7 +69,7 @@ export const myProjects: ProjectType[] = [
 	},
 	{
 		id: "P05",
-		title: "OpenClassrooms projet 3 : Ohmyfood",
+		title: "Ohmyfood",
 		image: captureOhmyfood,
 		description:
 			"Ce projet est un site internet de démonstration regroupant les cartes de plusieurs restaurants. Il a été intégré à partir d'une maquette à l'aide de HTML et SCSS. L'objectif est d'avoir un site le plus fidèle possible à la maquette et également d'implémenter les différentes animations demandées avec du CSS.",
