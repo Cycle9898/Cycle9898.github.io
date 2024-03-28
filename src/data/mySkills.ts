@@ -2,6 +2,7 @@ import typescriptLogo from "../assets/images/Skills/typescript.png";
 import reactLogo from "../assets/images/Skills/react.png";
 import reduxLogo from "../assets/images/Skills/redux.png";
 import sassLogo from "../assets/images/Skills/sass.png";
+import tailwindcssLogo from "../assets/images/Skills/tailwindcss.png";
 import bootstrapLogo from "../assets/images/Skills/bootstrap.png";
 import jestLogo from "../assets/images/Skills/jest.png";
 import nodejsLogo from "../assets/images/Skills/nodejs.png";
@@ -46,26 +47,31 @@ export const technologies: SkillType[] = [
 	},
 	{
 		id: "Tech05",
+		name: "Tailwind CSS",
+		logo: tailwindcssLogo
+	},
+	{
+		id: "Tech06",
 		name: "Bootstrap",
 		logo: bootstrapLogo
 	},
 	{
-		id: "Tech06",
+		id: "Tech07",
 		name: "Jest",
 		logo: jestLogo
 	},
 	{
-		id: "Tech07",
+		id: "Tech08",
 		name: "Node.JS",
 		logo: nodejsLogo
 	},
 	{
-		id: "Tech08",
+		id: "Tech09",
 		name: "MongoDB (No SQL)",
 		logo: mongodbLogo
 	},
 	{
-		id: "Tech09",
+		id: "Tech10",
 		name: "MariaDB (SQL)",
 		logo: mariabLogo
 	}
