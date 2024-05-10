@@ -1,4 +1,5 @@
 import typescriptLogo from "../assets/images/Skills/typescript.png";
+import nextJSLogo from "../assets/images/Skills/nextjs.png";
 import reactLogo from "../assets/images/Skills/react.png";
 import reduxLogo from "../assets/images/Skills/redux.png";
 import sassLogo from "../assets/images/Skills/sass.png";
@@ -8,6 +9,7 @@ import jestLogo from "../assets/images/Skills/jest.png";
 import nodejsLogo from "../assets/images/Skills/nodejs.png";
 import mongodbLogo from "../assets/images/Skills/mongodb.png";
 import mariabLogo from "../assets/images/Skills/mariadb.png";
+import postgreSQLLogo from "../assets/images/Skills/PostgreSQL.png";
 
 import gitLogo from "../assets/images/Skills/git.png";
 import githubLogo from "../assets/images/Skills/github.png";
@@ -32,48 +34,58 @@ export const technologies: SkillType[] = [
 	},
 	{
 		id: "Tech02",
+		name: "Next.JS",
+		logo: nextJSLogo
+	},
+	{
+		id: "Tech03",
 		name: "React",
 		logo: reactLogo
 	},
 	{
-		id: "Tech03",
+		id: "Tech04",
 		name: "Redux",
 		logo: reduxLogo
 	},
 	{
-		id: "Tech04",
+		id: "Tech05",
 		name: "Sass",
 		logo: sassLogo
 	},
 	{
-		id: "Tech05",
+		id: "Tech06",
 		name: "Tailwind CSS",
 		logo: tailwindcssLogo
 	},
 	{
-		id: "Tech06",
+		id: "Tech07",
 		name: "Bootstrap",
 		logo: bootstrapLogo
 	},
 	{
-		id: "Tech07",
+		id: "Tech08",
 		name: "Jest",
 		logo: jestLogo
 	},
 	{
-		id: "Tech08",
+		id: "Tech09",
 		name: "Node.JS",
 		logo: nodejsLogo
 	},
 	{
-		id: "Tech09",
+		id: "Tech10",
 		name: "MongoDB (No SQL)",
 		logo: mongodbLogo
 	},
 	{
-		id: "Tech10",
+		id: "Tech11",
 		name: "MariaDB (SQL)",
 		logo: mariabLogo
+	},
+	{
+		id: "Tech12",
+		name: "PostgreSQL (SQL)",
+		logo: postgreSQLLogo
 	}
 ];
 
