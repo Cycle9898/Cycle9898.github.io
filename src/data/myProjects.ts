@@ -1,3 +1,4 @@
+import capturePRB from "../assets/images/Projects/capturePRB.jpeg";
 import captureHrnet from "../assets/images/Projects/capture_hrnet.jpeg";
 import captureArgentBank from "../assets/images/Projects/capture_ArgentBank.jpeg";
 import capturePetitsPlats from "../assets/images/Projects/capture_petits-plats.jpeg";
@@ -16,7 +17,17 @@ export type ProjectType = {
 
 export const myProjects: ProjectType[] = [
 	{
-		id: "P01",
+		id: "P06",
+		title: "Proposal Ranking Boards",
+		image: capturePRB,
+		description:
+			"Un site web créé avec Next.JS qui permet de créer des boards pour poser des questions, à une communauté par exemple, et faire des propositions en retour, pour y répondre. De plus, un système de vote pour les propositions est mis en place. Les résultats sont paginés (boards et propositions) pour éviter d'avoir trop d'entrées par pages. Une barre de recherche est présente pour filtrer les propositions et les boards. Les données sont sauvegardés dans une base de données PostgreSQL et Prisma est utilisé pour interagir avec elle.",
+		github: "https://github.com/Cycle9898/proposal-ranking-boards",
+		link: "https://proposal-ranking-boards.vercel.app/",
+		tags: ["TypeScript", "Next.JS", "React", "Tailwind CSS", "PostgreSQL", "Prisma", "NodeJS"]
+	},
+	{
+		id: "P05",
 		title: "Wealth Health HRnet",
 		image: captureHrnet,
 		description:
@@ -38,7 +49,7 @@ export const myProjects: ProjectType[] = [
 		]
 	},
 	{
-		id: "P02",
+		id: "P04",
 		title: "Argent Bank",
 		image: captureArgentBank,
 		description:
@@ -58,7 +69,7 @@ export const myProjects: ProjectType[] = [
 		tags: ["HTML", "CSS", "Bootstrap", "JavaScript"]
 	},
 	{
-		id: "P04",
+		id: "P02",
 		title: "FishEye",
 		image: captureFishEye,
 		description:
@@ -68,7 +79,7 @@ export const myProjects: ProjectType[] = [
 		tags: ["HTML", "CSS", "JavaScript"]
 	},
 	{
-		id: "P05",
+		id: "P01",
 		title: "Ohmyfood",
 		image: captureOhmyfood,
 		description:
