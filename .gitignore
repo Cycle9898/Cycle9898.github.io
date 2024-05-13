@@ -25,3 +25,5 @@ dist-ssr
 
 # Others
 .env
+.next
+next-env.d.ts

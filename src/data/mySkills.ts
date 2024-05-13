@@ -1,25 +1,3 @@
-import typescriptLogo from "../assets/images/Skills/typescript.png";
-import nextJSLogo from "../assets/images/Skills/nextjs.png";
-import reactLogo from "../assets/images/Skills/react.png";
-import reduxLogo from "../assets/images/Skills/redux.png";
-import sassLogo from "../assets/images/Skills/sass.png";
-import tailwindcssLogo from "../assets/images/Skills/tailwindcss.png";
-import bootstrapLogo from "../assets/images/Skills/bootstrap.png";
-import jestLogo from "../assets/images/Skills/jest.png";
-import nodejsLogo from "../assets/images/Skills/nodejs.png";
-import mongodbLogo from "../assets/images/Skills/mongodb.png";
-import mariabLogo from "../assets/images/Skills/mariadb.png";
-import postgreSQLLogo from "../assets/images/Skills/PostgreSQL.png";
-
-import gitLogo from "../assets/images/Skills/git.png";
-import githubLogo from "../assets/images/Skills/github.png";
-import viteLogo from "../assets/images/Skills/vite.png";
-import figmaLogo from "../assets/images/Skills/figma.png";
-import swaggerLogo from "../assets/images/Skills/swagger.png";
-import lighthouseLogo from "../assets/images/Skills/lighthouse.png";
-import linuxLogo from "../assets/images/Skills/linux.png";
-import windowsLogo from "../assets/images/Skills/windows.png";
-
 export type SkillType = {
 	id?: string;
 	name: string;
@@ -30,62 +8,62 @@ export const technologies: SkillType[] = [
 	{
 		id: "Tech01",
 		name: "TypeScript",
-		logo: typescriptLogo
+		logo: "/assets/images/Skills/typescript.png"
 	},
 	{
 		id: "Tech02",
 		name: "Next.JS",
-		logo: nextJSLogo
+		logo: "/assets/images/Skills/nextjs.png"
 	},
 	{
 		id: "Tech03",
 		name: "React",
-		logo: reactLogo
+		logo: "/assets/images/Skills/react.png"
 	},
 	{
 		id: "Tech04",
 		name: "Redux",
-		logo: reduxLogo
+		logo: "/assets/images/Skills/redux.png"
 	},
 	{
 		id: "Tech05",
 		name: "Sass",
-		logo: sassLogo
+		logo: "/assets/images/Skills/sass.png"
 	},
 	{
 		id: "Tech06",
 		name: "Tailwind CSS",
-		logo: tailwindcssLogo
+		logo: "/assets/images/Skills/tailwindcss.png"
 	},
 	{
 		id: "Tech07",
 		name: "Bootstrap",
-		logo: bootstrapLogo
+		logo: "/assets/images/Skills/bootstrap.png"
 	},
 	{
 		id: "Tech08",
 		name: "Jest",
-		logo: jestLogo
+		logo: "/assets/images/Skills/jest.png"
 	},
 	{
 		id: "Tech09",
 		name: "Node.JS",
-		logo: nodejsLogo
+		logo: "/assets/images/Skills/nodejs.png"
 	},
 	{
 		id: "Tech10",
 		name: "MongoDB (No SQL)",
-		logo: mongodbLogo
+		logo: "/assets/images/Skills/mongodb.png"
 	},
 	{
 		id: "Tech11",
 		name: "MariaDB (SQL)",
-		logo: mariabLogo
+		logo: "/assets/images/Skills/mariadb.png"
 	},
 	{
 		id: "Tech12",
 		name: "PostgreSQL (SQL)",
-		logo: postgreSQLLogo
+		logo: "/assets/images/Skills/PostgreSQL.png"
 	}
 ];
 
@@ -93,41 +71,36 @@ export const tools: SkillType[] = [
 	{
 		id: "Tool01",
 		name: "Git",
-		logo: gitLogo
+		logo: "/assets/images/Skills/git.png"
 	},
 	{
 		id: "Tool02",
 		name: "GitHub",
-		logo: githubLogo
+		logo: "/assets/images/Skills/github.png"
 	},
 	{
 		id: "Tool03",
-		name: "ViteJS",
-		logo: viteLogo
+		name: "Figma",
+		logo: "/assets/images/Skills/figma.png"
 	},
 	{
 		id: "Tool04",
-		name: "Figma",
-		logo: figmaLogo
+		name: "Swagger",
+		logo: "/assets/images/Skills/swagger.png"
 	},
 	{
 		id: "Tool05",
-		name: "Swagger",
-		logo: swaggerLogo
+		name: "Lighthouse",
+		logo: "/assets/images/Skills/lighthouse.png"
 	},
 	{
 		id: "Tool06",
-		name: "Lighthouse",
-		logo: lighthouseLogo
+		name: "Linux",
+		logo: "/assets/images/Skills/linux.png"
 	},
 	{
 		id: "Tool07",
-		name: "Linux",
-		logo: linuxLogo
-	},
-	{
-		id: "Tool08",
 		name: "Windows",
-		logo: windowsLogo
+		logo: "/assets/images/Skills/windows.png"
 	}
 ];
