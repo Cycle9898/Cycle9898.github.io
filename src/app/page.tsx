@@ -8,15 +8,14 @@ import MySkillsSection from "../sections/MySkillsSection";
 import ContactSection from "../sections/ContactSection";
 import Footer from "../components/Footer";
 import { Suspense } from "react";
+import LoadingSpinner from "../components/LoadingSpinner";
 
 function HomePage() {
 	return (
-		<>
+		<Suspense fallback={<LoadingSpinner />}>
 			<FloatingContactButton />
 
-			<Suspense fallback="...Loading">
-				<Header />
-			</Suspense>
+			<Header />
 
 			<main className="main">
 				<WhoAmISection />
@@ -29,7 +28,7 @@ function HomePage() {
 			</main>
 
 			<Footer />
-		</>
+		</Suspense>
 	);
 }
 
