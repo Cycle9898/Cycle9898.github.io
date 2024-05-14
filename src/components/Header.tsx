@@ -7,7 +7,7 @@ import { GiHamburgerMenu } from "react-icons/gi";
 function Header() {
 	// React local states
 	const [isOpen, setIsOpen] = useState<boolean>(false);
-	const [windowWidth, setWindowWidth] = useState<number>(1200);
+	const [windowWidth, setWindowWidth] = useState<number>(700);
 
 	// Utility functions
 	const toggleIsOpen = () => {
@@ -16,8 +16,18 @@ function Header() {
 		}
 	};
 
+	const getWindowWidth = () => setWindowWidth(window.innerWidth);
+
 	useEffect(() => {
+		// store initial window width in state
 		setWindowWidth(window.innerWidth);
+		// event listener to get and store window width in the state on screen resize
+		window.addEventListener("resize", getWindowWidth);
+
+		return () => {
+			// cleanup event listener
+			window.removeEventListener("resize", getWindowWidth);
+		};
 	}, []);
 
 	return (
