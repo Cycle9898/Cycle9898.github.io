@@ -16,10 +16,6 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
 	return (
 		<html lang="fr">
-			<head>
-				<meta name="referrer" content="origin" />
-			</head>
-
 			<body className={roboto.className}>{children}</body>
 		</html>
 	);
