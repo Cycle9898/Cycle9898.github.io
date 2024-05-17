@@ -61,9 +61,9 @@ function Header() {
 					<li>
 						<a
 							href="/assets/CV/CV_Cyril_CLEMENT_Dev.pdf"
-							aria-label="Télécharger mon CV en PDF"
+							aria-label="Voir mon CV en PDF"
 							target="_blank"
-							title="Télécharger mon CV"
+							title="Voir mon CV"
 							className="pdf-logo">
 							<FaFilePdf />
 						</a>

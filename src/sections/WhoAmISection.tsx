@@ -22,7 +22,7 @@ function WhoAmISection() {
 
 					<a
 						href="/assets/CV/CV_Cyril_CLEMENT_Dev.pdf"
-						target="_blank"
+						download="CV_Cyril_CLEMENT_Dev.pdf"
 						className="introduction__cv main-button">
 						Télécharger mon CV
 					</a>
