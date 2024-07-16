@@ -64,6 +64,11 @@ export const technologies: SkillType[] = [
 		id: "Tech12",
 		name: "PostgreSQL (SQL)",
 		logo: "/assets/images/Skills/PostgreSQL.png"
+	},
+	{
+		id: "Tech13",
+		name: "PHP",
+		logo: "/assets/images/Skills/php.png"
 	}
 ];
 

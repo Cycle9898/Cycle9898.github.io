@@ -35,7 +35,7 @@ function Header() {
 			<div className="header__main-title">
 				<a href="/">
 					<h1>Cyril CLEMENT</h1>
-					<h2>Développeur JavaScript / TypeScript</h2>
+					<h2>Développeur Web</h2>
 				</a>
 			</div>
 
