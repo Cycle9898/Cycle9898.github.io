@@ -42,33 +42,33 @@ export const technologies: SkillType[] = [
 	},
 	{
 		id: "Tech08",
-		name: "Jest",
-		logo: "/assets/images/Skills/jest.png"
-	},
-	{
-		id: "Tech09",
 		name: "Node.JS",
 		logo: "/assets/images/Skills/nodejs.png"
 	},
 	{
-		id: "Tech10",
+		id: "Tech09",
 		name: "MongoDB (No SQL)",
 		logo: "/assets/images/Skills/mongodb.png"
 	},
 	{
-		id: "Tech11",
+		id: "Tech10",
 		name: "MariaDB (SQL)",
 		logo: "/assets/images/Skills/mariadb.png"
 	},
 	{
-		id: "Tech12",
+		id: "Tech11",
 		name: "PostgreSQL (SQL)",
-		logo: "/assets/images/Skills/PostgreSQL.png"
+		logo: "/assets/images/Skills/postgresql.png"
+	},
+	{
+		id: "Tech12",
+		name: "PHP",
+		logo: "/assets/images/Skills/php.png"
 	},
 	{
 		id: "Tech13",
-		name: "PHP",
-		logo: "/assets/images/Skills/php.png"
+		name: "Symfony",
+		logo: "/assets/images/Skills/symfony.png"
 	}
 ];
 
@@ -85,26 +85,41 @@ export const tools: SkillType[] = [
 	},
 	{
 		id: "Tool03",
+		name: "Jest",
+		logo: "/assets/images/Skills/jest.png"
+	},
+	{
+		id: "Tool04",
+		name: "PHPUnit",
+		logo: "/assets/images/Skills/phpunit.png"
+	},
+	{
+		id: "Tool05",
 		name: "Figma",
 		logo: "/assets/images/Skills/figma.png"
 	},
 	{
-		id: "Tool04",
+		id: "Tool06",
 		name: "Swagger",
 		logo: "/assets/images/Skills/swagger.png"
 	},
 	{
-		id: "Tool05",
+		id: "Tool07",
+		name: "Nelmio Api Doc Bundle",
+		logo: "/assets/images/Skills/nelmioapidocbundle.png"
+	},
+	{
+		id: "Tool08",
 		name: "Lighthouse",
 		logo: "/assets/images/Skills/lighthouse.png"
 	},
 	{
-		id: "Tool06",
+		id: "Tool09",
 		name: "Linux",
 		logo: "/assets/images/Skills/linux.png"
 	},
 	{
-		id: "Tool07",
+		id: "Tool10",
 		name: "Windows",
 		logo: "/assets/images/Skills/windows.png"
 	}
