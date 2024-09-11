@@ -20,6 +20,14 @@ function WhoAmISection() {
 						applications web robustes et stylisées.
 					</p>
 
+					<p>
+						J'ai poursuivi mon apprentissage en autodidacte, en construisant des projets
+						professionnalisants, notamment avec le framework Next.JS, le langage de programmation PHP et son
+						framework Symfony.
+					</p>
+
+					<p>Je suis à l'écoute d'opportunités.</p>
+
 					<a
 						href="/assets/CV/CV_Cyril_CLEMENT_Dev.pdf"
 						download="CV_Cyril_CLEMENT_Dev.pdf"
