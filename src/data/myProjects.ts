@@ -10,7 +10,17 @@ export type ProjectType = {
 
 export const myProjects: ProjectType[] = [
 	{
-		id: "P06",
+		id: "P05",
+		title: "Zen Bank",
+		image: "/assets/images/Projects/capture_ZenBank.jpeg",
+		description:
+			"Zen Bank est une application bancaire sur le web, créée avec Next.JS qui permet de lier vos comptes bancaires, consulter les informations et l'historique des transactions de ceux-ci et transférer des fonds.",
+		github: "https://github.com/Cycle9898/ZenBank_Frontend",
+		link: "https://zen-bank.vercel.app",
+		tags: ["TypeScript", "Next.JS", "React", "Tailwind CSS", "Appwrite", "Dwolla", "NodeJS"]
+	},
+	{
+		id: "P04",
 		title: "Proposal Ranking Boards",
 		image: "/assets/images/Projects/capturePRB.jpeg",
 		description:
@@ -20,7 +30,7 @@ export const myProjects: ProjectType[] = [
 		tags: ["TypeScript", "Next.JS", "React", "Tailwind CSS", "PostgreSQL", "Prisma", "NodeJS"]
 	},
 	{
-		id: "P05",
+		id: "P03",
 		title: "Wealth Health HRnet",
 		image: "/assets/images/Projects/capture_hrnet.jpeg",
 		description:
@@ -42,7 +52,7 @@ export const myProjects: ProjectType[] = [
 		]
 	},
 	{
-		id: "P04",
+		id: "P02",
 		title: "Argent Bank",
 		image: "/assets/images/Projects/capture_ArgentBank.jpeg",
 		description:
@@ -52,17 +62,7 @@ export const myProjects: ProjectType[] = [
 		tags: ["TypeScript", "React", "Redux", "CSS", "SASS", "Swagger", "NodeJS", "Express", "MongoDB"]
 	},
 	{
-		id: "P03",
-		title: "Les petits plats",
-		image: "/assets/images/Projects/capture_petits-plats.jpeg",
-		description:
-			"Ce projet est un site internet de recette de cuisine permettant de trouver une recette à l'aide d'une barre de recherche et de filtres. Il a été intégré à partir d'une maquette à l'aide de HTML, CSS, Bootstrap et JavaScript. L'objectif est d'avoir un algorithme, écris en JavaScript, pour la recherche et les filtres le plus performant possible. Des tests de performance ont été réalisés entre les 2 algorithmes retenus. Sur GitHub, on peut retrouver un algorithme par branche.",
-		github: "https://github.com/Cycle9898/OC_Projet-7_Les-petits-plats",
-		link: "https://www.cyril-clement.fr/OC_Projet-7_Les-petits-plats/",
-		tags: ["HTML", "CSS", "Bootstrap", "JavaScript"]
-	},
-	{
-		id: "P02",
+		id: "P01",
 		title: "FishEye",
 		image: "/assets/images/Projects/capture_FishEye.jpeg",
 		description:
@@ -70,15 +70,5 @@ export const myProjects: ProjectType[] = [
 		github: "https://github.com/Cycle9898/OC_Projet-6_FishEye",
 		link: "https://www.cyril-clement.fr/OC_Projet-6_FishEye/",
 		tags: ["HTML", "CSS", "JavaScript"]
-	},
-	{
-		id: "P01",
-		title: "Ohmyfood",
-		image: "/assets/images/Projects/capture_ohmyfood.jpeg",
-		description:
-			"Ce projet est un site internet de démonstration regroupant les cartes de plusieurs restaurants. Il a été intégré à partir d'une maquette à l'aide de HTML et SCSS. L'objectif est d'avoir un site le plus fidèle possible à la maquette et également d'implémenter les différentes animations demandées avec du CSS.",
-		github: "https://github.com/Cycle9898/OC_Projet-3_Ohmyfood",
-		link: "https://www.cyril-clement.fr/OC_Projet-3_Ohmyfood/index.html",
-		tags: ["HTML", "CSS", "SASS"]
 	}
 ];
