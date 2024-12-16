@@ -3,8 +3,8 @@ export type ProjectType = {
 	title: string;
 	image: string;
 	description: string;
-	github: string;
-	link: string;
+	github?: string;
+	link?: string;
 	tags: string[];
 };
 
