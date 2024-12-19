@@ -223,6 +223,7 @@ a {
 .project__image {
 	width: 300px;
 	aspect-ratio: 250 / 119;
+	text-align: center;
 }
 
 .project__image img {

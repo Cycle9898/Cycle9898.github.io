@@ -10,6 +10,16 @@ export type ProjectType = {
 
 export const myProjects: ProjectType[] = [
 	{
+		id: "P06",
+		title: "Tech Heaven",
+		image: "/assets/images/Projects/capture_Tech-Heaven.jpg",
+		description:
+			"Tech Heaven est un site e-commerce où vous pouvez acheter des produits électroniques. Le CMS PayloadCMS est utilisé comme backend et comme back-office, pour gérer les clients, les commandes, les produits, etc.",
+		github: "https://github.com/Cycle9898/Tech-Heaven",
+		link: "https://tech-heaven.onrender.com/",
+		tags: ["TypeScript", "Next.JS", "React", "Sass", "MongoDB", "Payload CMS", "Docker", "NodeJS"]
+	},
+	{
 		id: "P05",
 		title: "Zen Bank",
 		image: "/assets/images/Projects/capture_ZenBank.jpeg",
