@@ -120,7 +120,7 @@ export const tools: SkillType[] = [
 	},
 	{
 		id: "Tool10",
-		name: "Windows",
-		logo: "/assets/images/Skills/windows.png"
+		name: "Docker",
+		logo: "/assets/images/Skills/docker.png"
 	}
 ];
