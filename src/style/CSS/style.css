@@ -4,6 +4,7 @@
 	--primary-color: #4b565d;
 	--alt-color: #2a3439;
 	--bg-color: #d4dee6;
+	--floating-icons-number: 2;
 }
 
 :target {
@@ -68,9 +69,9 @@ a {
 	text-decoration: none;
 }
 
-/* FloatingContactButton component */
+/* FloatingShortcuts component */
 
-.medium-device-contact {
+.floating-shortcuts {
 	display: none;
 }
 
@@ -484,27 +485,37 @@ a {
 		padding: 30px 40px;
 	}
 
-	/* FloatingContactButton component */
+	/* FloatingShortcuts component */
 
-	.medium-device-contact {
-		display: block;
+	.floating-shortcuts {
+		display: flex;
+		flex-direction: column;
+		gap: 15px;
 		align-self: end;
 		position: sticky;
 		top: 20px;
 		right: 20px;
 		z-index: 5;
-		margin-top: -45px;
+		margin-top: calc(
+			((-10px * 2) - (2px * 2) - 1.7rem) * var(--floating-icons-number) -
+				((var(--floating-icons-number) - 1) * 15px)
+		);
+	}
+
+	/* FLoatingButton component */
+
+	.floating-button {
 		padding: 10px;
 		border: 2px solid black;
 		border-radius: 10px;
 		background-color: white;
 		color: var(--primary-color);
-		font-size: 1.3rem;
+		font-size: 1.7rem;
 	}
 
-	.medium-device-contact a {
+	.floating-button a {
 		display: block;
-		height: 1.3rem;
+		height: 1.7rem;
 	}
 
 	/* Header component */

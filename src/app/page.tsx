@@ -1,6 +1,6 @@
 import "../style/CSS/normalize.min.css";
 import "../style/CSS/style.css";
-import FloatingContactButton from "../components/FloatingContactButton";
+import FloatingShortcuts from "../components/FloatingShortcuts";
 import Header from "../components/Header";
 import WhoAmISection from "../sections/WhoAmISection";
 import MyProjectsSection from "../sections/MyProjectsSection";
@@ -13,7 +13,7 @@ import LoadingSpinner from "../components/LoadingSpinner";
 function HomePage() {
 	return (
 		<Suspense fallback={<LoadingSpinner />}>
-			<FloatingContactButton />
+			<FloatingShortcuts />
 
 			<Header />
 
