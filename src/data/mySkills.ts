@@ -69,6 +69,11 @@ export const technologies: SkillType[] = [
 		id: "Tech13",
 		name: "Symfony",
 		logo: "/assets/images/Skills/symfony.png"
+	},
+	{
+		id: "Tech14",
+		name: "WordPress",
+		logo: "/assets/images/Skills/wordpress.png"
 	}
 ];
 
