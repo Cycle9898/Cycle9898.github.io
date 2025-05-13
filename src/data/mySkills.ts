@@ -74,6 +74,11 @@ export const technologies: SkillType[] = [
 		id: "Tech14",
 		name: "WordPress",
 		logo: "/assets/images/Skills/wordpress.png"
+	},
+	{
+		id: "Tech15",
+		name: "Vue.JS",
+		logo: "/assets/images/Skills/vuejs.png"
 	}
 ];
 
