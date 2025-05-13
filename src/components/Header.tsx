@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useEffect, useState } from "react";
 import { FaGithub, FaLinkedin, FaFilePdf } from "react-icons/fa6";
 import { GiHamburgerMenu } from "react-icons/gi";
@@ -33,10 +34,10 @@ function Header() {
 	return (
 		<header className="header">
 			<div className="header__main-title">
-				<a href="/">
+				<Link href="/">
 					<h1>Cyril CLEMENT</h1>
 					<h2>Développeur Web</h2>
-				</a>
+				</Link>
 			</div>
 
 			<div className="header__networking">
