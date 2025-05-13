@@ -23,7 +23,7 @@ function WhoAmISection() {
 					<p>
 						J'ai poursuivi mon apprentissage en autodidacte, en construisant des projets
 						professionnalisants, notamment avec le framework Next.JS, le langage de programmation PHP et son
-						framework Symfony.
+						framework Symfony, le CMS WordPress ou encore le framework Vue.js.
 					</p>
 
 					<p>Je suis à l'écoute d'opportunités.</p>
