@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useEffect, useState } from "react";
-import { FaGithub, FaLinkedin, FaFilePdf } from "react-icons/fa6";
+import { FaGithub, FaLinkedin } from "react-icons/fa6";
 import { GiHamburgerMenu } from "react-icons/gi";
 
 function Header() {
