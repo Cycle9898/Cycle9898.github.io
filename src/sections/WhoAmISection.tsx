@@ -25,15 +25,6 @@ function WhoAmISection() {
 						professionnalisants, notamment avec le framework Next.JS, le langage de programmation PHP et son
 						framework Symfony, le CMS WordPress ou encore le framework Vue.js.
 					</p>
-
-					<p>Je suis à l'écoute d'opportunités.</p>
-
-					<a
-						href="/assets/CV/CV_Cyril_CLEMENT_Dev.pdf"
-						download="CV_Cyril_CLEMENT_Dev.pdf"
-						className="introduction__cv main-button">
-						Télécharger mon CV
-					</a>
 				</div>
 			</article>
 		</section>

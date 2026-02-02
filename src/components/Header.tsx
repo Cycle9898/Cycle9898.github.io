@@ -58,17 +58,6 @@ function Header() {
 							<FaLinkedin />
 						</a>
 					</li>
-
-					<li>
-						<a
-							href="/assets/CV/CV_Cyril_CLEMENT_Dev.pdf"
-							aria-label="Voir mon CV en PDF"
-							target="_blank"
-							title="Voir mon CV"
-							className="pdf-logo">
-							<FaFilePdf />
-						</a>
-					</li>
 				</ul>
 			</div>
 
